@@ -1,0 +1,141 @@
+@media (max-width: 1024px){
+
+}
+@media (max-width: 989px){
+    .hero-section .hero-text h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 800px){
+    .contact-section .address-part {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    .contact-section .address-part i {
+        font-size: 50px;
+    }
+    .contact-section .address-part h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 20px 0 10px 0;
+    }
+}
+
+
+@media (max-width: 768px){
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-section .column-one{
+        width: 100%;
+        order: 2;
+    }
+    .hero-section .column-two{
+        width: 100%;
+        order: 1;
+    }
+    .hero-section .hero-text h1 {
+        margin-top: 30px;
+    }
+    .hero-section .hero-text h2 {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .hero-text{
+        width: 100%;
+        text-align: center;
+    }
+    .flutter-app-section .section-box {
+        width: 100%;
+        text-align: center;
+    }
+    .flutter-app-section .section-box .box-text p{
+        font-size: 14px;
+        padding: 0 0px 0px 0px;
+    }
+    .flutter-app-section .section-box .box-text{
+        margin-bottom: 15px !important;
+    }
+    .app-features-content div {
+        width: 100%;
+        text-align: center;
+    }
+    .app-features-section .app-icon-box img {
+        width: 65px;
+        float: none; 
+    }
+    .details-section .details-image-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .details-section .details-image-box img{
+        width: 400px !important;
+        object-fit: cover;
+    }
+    .details-section .details-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .details-section .details-text h3 {
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .details-section .details-text p {
+        font-size: 14px;
+        margin-bottom: 0 !important;
+        padding-top: 10px !important;
+    }
+    .details-section {
+        margin-top: 30px;
+    }
+    .details-section-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .details-section-content .column-one{
+        width: 100%;
+        order: 2;
+    } 
+    .details-section-content .column-two{
+        width: 100%;
+        order: 1;
+    } 
+    .details-section-content .button-section{
+        margin: auto;
+    }
+    .price-section .price-heding-content h3 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .price-section .price-heding-content h2 {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .price-section h2 {
+        padding: 10px 0;
+    }
+    .price-section .high-price{
+        margin-top: 40px;
+    }
+    .price-section{
+        margin-bottom: 40px;
+    }
+    .footer-section .footer-link-text .item{
+        justify-content: center;
+    }
+    .footer-section .footer-link-text .item i{
+       display: none !important;
+    }
+}
+
+@media (max-width: 540px){
+    .footer-section {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
